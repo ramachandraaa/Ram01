@@ -11,7 +11,7 @@ public class Main {
         {
             if(n%i==0)
             {
-
+ji
             }
 
         }
