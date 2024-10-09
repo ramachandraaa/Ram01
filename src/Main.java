@@ -21,6 +21,12 @@ public class Main {
             }
             if(sum!=n)
             {
+                System.out.println("not a perfect");
+
+
+
+
+
 
             }
 
