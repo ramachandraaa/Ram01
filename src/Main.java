@@ -1,19 +1,31 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
+    private int  sum;
     public static void main(String [] args)
     {
-
+   Main n=new Main();
+   n.perfect(5);
     }
-    void perfect()
+    void perfect(int n)
     {
-        for(i=0;i<n;i++)
+        for(int i=1;i<n;i++)
         {
             if(n%i==0)
             {
-ji
+            this.sum=this.sum+i;
+            }}
+            if(sum==n)
+            {
+                System.out.println("Perfect");
+            }
+            if(sum!=n)
+            {
+                System.out.println(" not Perfect");
             }
 
-        }
+
+
+
     }
 }
