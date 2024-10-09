@@ -21,8 +21,9 @@ public class Main {
             }
             if(sum!=n)
             {
-                System.ou.println(" not Perfect");
+
             }
+
 
 
 
