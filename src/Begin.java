@@ -2,7 +2,8 @@ public class Begin {
     private int marks;
     public static void main(String[] args)
     {
-   Begin n=new Begin(98);
+   Begin n=new Begin(70);
+  System.out.println( n.grade());
     }
 
     public  Begin(int marks)
@@ -10,34 +11,37 @@ public class Begin {
       this.marks=marks;
 
     }
-    public char grade(char u)
+    public int grade()
     {
-        switch((int)(marks/10))
+        switch((marks/10))
+
         {
             case 10:
                // return 'A';
                // break;
             case 9:
-                return u=='A';
-            break;
+                return 1;
+          //  break;
             case 8:
-                return u=='B';
-            break;
+                return 2;
+           // break;
             case 7:
-                return u=='C';
-            break;
+                return 3;
+           // break;
             case 6:
-                return u='D';
-            break;
+                return 4;
+           // break;
             case 5:
-                return u= 'E';
-            break;
+                return 5;
+           // break;
             case 4:
             case 3:
             case 2:
             case 1:
-                return 'A';
-            break;
+                return 6;
+           // break;
+            default:
+                return 7;
 
 
 
